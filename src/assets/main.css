@@ -1,0 +1,832 @@
+/*------------ Start Defeult Style ------------------*/
+
+:root {
+    --main-color: #394B6C;
+    --seceond-color: #2a81ea;
+    --third-color: #4B6691;
+    --overlay: #F7F9FE;
+    --covido-color: #FF5363;
+    --white: #d8dbe0;
+    --background: #F7F9FE;
+    --background-color: #2766bb;
+}
+
+svg {
+    cursor: pointer;
+}
+
+.sticky-navbar {
+    display: none;
+}
+
+
+/*------------ End Defeult Style ------------------*/
+
+
+/* ---------------------- Start MyltiStyle ----------------*/
+
+.covid-text .covid-name h1,
+.covid-text .covid-name span h3,
+.covid-text .covid-name span h2,
+.TreatCareComp .traet-l-taxt h2 {
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+}
+
+.spread h5,
+.text-comp h5,
+.covid-disease .disease h5,
+.PrevTextComp h5,
+.TreatTextComp h5,
+.faq-text h5,
+.NewTextComp h5 {
+    color: var(--seceond-color);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.spread h2,
+.text-comp h2,
+.covid-disease .disease h2,
+.PrevTextComp h2,
+.TreatTextComp h2,
+.faq-text h2,
+.NewTextComp h2 {
+    color: var(--third-color);
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.covid-text .covid-name span h3,
+footer .footer-info .covid {
+    color: var(--covido-color);
+    font-size: 28px;
+}
+
+.spread p,
+.text-comp p,
+.sym-boxs .sym-text p,
+.PrevTextComp p,
+.TreatTextComp p {
+    color: var(--main-color);
+    margin-bottom: 50px;
+}
+
+.covid-disease .disease p span,
+.sym-boxs .sym-text p span,
+.PrevTextComp p span,
+.PrevStepsComp .steps-text ul li span,
+.PrevHandComp .hand-text p {
+    font-weight: bold;
+}
+
+.covid-text .buttons,
+.advice-comp,
+.faq {
+    margin: 50px 0;
+}
+
+.covid-text .buttons .how,
+.covid-text .buttons .about {
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 30px 0 0;
+}
+
+.spread,
+.text-comp,
+.PrevTextComp,
+.TreatTextComp {
+    width: 60%;
+    margin: 50px auto 50px auto;
+}
+
+.boxes .box-img,
+.boxes .img-con {
+    background-color: white;
+    padding: 12px;
+}
+
+.about,
+.prevention,
+.treatment,
+.news {
+    background-color: #F7F9FE;
+    padding: 30px 0;
+}
+
+
+/* ---------------------- End MyltiStyle --------------------*/
+
+
+/* ----------------------------- Start Home Style -------------------*/
+
+.covid-info {
+    background-image: url(../assets/images/shape-a.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--overlay);
+    padding-top: 50px;
+}
+
+
+/* Start Covid Text */
+
+.covid-text .covid-name {
+    display: flex;
+    align-items: center;
+}
+
+.covid-text .covid-name h1 {
+    font-size: 85px;
+    color: var(--main-color);
+}
+
+.covid-text .covid-name span h2 {
+    font-size: 40px;
+    color: var(--main-color);
+}
+
+.covid-text .buttons .how {
+    background-color: var(--seceond-color);
+    padding: 10px 15px;
+    color: white;
+    border-radius: 10px;
+}
+
+.covid-text .buttons .how:hover {
+    background-color: #1468cd;
+}
+
+.covid-text .buttons .about:hover {
+    color: #1468cd;
+}
+
+.covid-count .name {
+    color: var(--third-color);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* End Covid Text */
+
+
+/* Start Covid Count */
+
+.covid-count .count {
+    color: var(--main-color);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* End Covid Count */
+
+.covid-img img {
+    max-width: 100%;
+}
+
+.covid-text .latest {
+    color: var(--third-color);
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.covid-info .covid {
+    display: flex;
+}
+
+
+/* ----------------------------------- End Home Style ---------------------*/
+
+
+/* ---------------------------- Start About Style --------------------*/
+
+.know {
+    flex-basis: 32%;
+}
+
+
+/* Start Disease Nav Style */
+
+.know ul {
+    border: 1px solid #e7e8ff;
+    list-style: none;
+    box-shadow: 0px 5px 40px 0px rgba(80, 101, 142, 0.08);
+}
+
+.know ul li {
+    border-bottom: 1px solid #e7e8ff;
+    padding: 20px 30px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--third-color);
+    font-size: 20px;
+}
+
+.know ul a li {
+    display: flex;
+    color: var(--seceond-color);
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.know ul a {
+    text-decoration: none;
+    color: var(--seceond-color);
+    border-bottom: 1px solid #e7e8ff;
+}
+
+.know ul a li:hover {
+    color: var(--seceond-color);
+}
+
+
+/* End Disease Nav Style */
+
+.container-spread {
+    margin-top: 50px;
+}
+
+
+/* start spread boxs */
+
+.boxes .box-img img {
+    max-width: 100%;
+    border-bottom: 6px solid #9db8df;
+}
+
+.boxes .img-con h3 {
+    font-size: 18px;
+    color: var(--seceond-color);
+}
+
+.boxes .img-con p {
+    color: var(--main-color);
+}
+
+
+/* end spread boxs */
+
+
+/* spread buttons */
+
+.button {
+    width: 30%;
+    padding: 30px 0;
+    margin: auto;
+}
+
+.button a {
+    width: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+/* ------------------------------ End About Style ---------------------*/
+
+
+/* ------------------------------ Start Symptoms Style -----------------*/
+
+
+/* start symptoms boxs */
+
+.img-comp .sym-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.img-comp .sym-img {
+    width: 80px;
+    top: -10%;
+    right: 10%;
+}
+
+.sym-boxs .sym-text h3 {
+    color: var(--seceond-color);
+}
+
+.img-comp .sym-boxs {
+    margin: 30px 0;
+}
+
+.img-comp .sym-boxs .sym-text {
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 6px 1px 16px rgb(248, 244, 244);
+}
+
+
+/* end symptoms boxs */
+
+
+/* start advice content */
+
+
+/* start con */
+
+.con {
+    display: flex;
+    flex-basis: 60%;
+}
+
+.con .icon {
+    margin: 0 10px;
+    color: var(--seceond-color);
+    font-size: 40px;
+    display: flex;
+    align-self: flex-start;
+}
+
+.con p {
+    color: var(--main-color);
+    font-style: italic;
+}
+
+.con p span {
+    color: var(--seceond-color);
+    font-weight: bold;
+}
+
+
+/* end con */
+
+
+/* start button */
+
+.advice-comp .button {
+    display: flex;
+    flex-basis: 40%;
+}
+
+.advice-comp .button a {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+
+/* end button */
+
+
+/* end advice content */
+
+
+/* -------------------------------- End Symptoms Style ------------------*/
+
+
+/* ------------------------------ Start prevention Style -----------------*/
+
+.PrevTImgComp,
+.PrevTImgComp .row {
+    padding: 30px;
+}
+
+.PrevTImgComp .box-img {
+    width: 45%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.PrevTImgComp .box-img img {
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.PrevTImgComp .box-text h5 {
+    color: var(--main-color);
+    font-size: 16px;
+}
+
+.PrevTImgComp .box-text p {
+    color: var(--main-color);
+}
+
+.PrevTImgComp .row .check a button {
+    background-color: var(--seceond-color);
+    padding: 10px 50px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.PrevTImgComp .row .q-a a,
+.PrevHandComp .hand a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.PrevTImgComp .row .prev-icon,
+.PrevHandComp .hand a .prev-icon {
+    margin-left: 10px;
+}
+
+.PrevStepsComp .col-r {
+    flex-basis: 65%;
+}
+
+.PrevStepsComp .col-l {
+    flex-basis: 35%;
+}
+
+.PrevStepsComp .col-l .prev-img img {
+    max-width: 100%;
+}
+
+.PrevStepsComp .steps-text h2 {
+    font-size: 30px;
+    color: var(--main-color);
+    margin: 0 0 40px 40px;
+}
+
+.PrevStepsComp .steps-text ul,
+.TreatCareComp .traet-r-taxt ul,
+.FaqItemComp .faq-left ul,
+.FaqItemComp .faq-right ul {
+    list-style: none;
+}
+
+.PrevStepsComp .steps-text ul li {
+    display: flex;
+    color: var(--main-color);
+    margin-bottom: 20px;
+}
+
+.PrevStepsComp .steps-text ul li .step-icon {
+    margin-right: 10px;
+    color: #3dca93;
+}
+
+.PrevStepsComp .prev-parent {
+    box-shadow: 0px 2px 15px grey;
+    background-color: white;
+    padding: 10px;
+}
+
+.PrevHandComp .hand h2 {
+    color: var(--main-color);
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.PrevHandComp {
+    margin: 90px 0 20px 0;
+}
+
+.PrevHandComp .hand-imgs {
+    margin-top: 50px;
+}
+
+.PrevHandComp .hand-imgs img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0px 5px 40px 0px rgb(238, 236, 236);
+}
+
+
+/* ------------------------------ End prevention Style -----------------*/
+
+
+/* ------------------------------ Start Treatment Style -----------------*/
+
+.TreatCareComp {
+    height: 90vh;
+    background-color: var(--background-color);
+    background-image: url(../assets/images/shape-a.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.TreatCareComp .traet-l-taxt h5 {
+    color: #73e3ff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.TreatCareComp .traet-l-taxt {
+    flex-basis: 60%;
+}
+
+.TreatCareComp .traet-l-taxt h2 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.TreatCareComp .traet-l-taxt p {
+    color: var(--white);
+    margin-bottom: 15px;
+}
+
+.TreatCareComp .traet-l-taxt p span {
+    color: white;
+    font-weight: bold;
+}
+
+.TreatCareComp .traet-r-taxt {
+    flex-basis: 40%;
+    padding: 30px 20px;
+    background-color: #1b47a1;
+    color: var(--white);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.TreatCareComp .traet-r-taxt ul li {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.TreatCareComp .traet-r-taxt h6 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.TreatCareComp .traet-r-taxt h6,
+.TreatCareComp .traet-r-taxt p {
+    margin-left: 30px;
+}
+
+.TreatCareComp .traet-r-taxt .treat-icon {
+    margin-right: 15px;
+}
+
+.TreatAdvComp .protect-l-boxs .pro-l,
+.TreatAdvComp .protect-r-boxs .pro-r {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.protect-l-boxs .pro-l .pro-img,
+.protect-r-boxs .pro-r .pro-img {
+    width: 80px;
+}
+
+.protect-l-boxs .pro-l .icon {
+    position: absolute;
+    left: 45%;
+    top: -5px;
+    color: var(--covido-color);
+    font-size: 21px;
+}
+
+.protect-r-boxs .pro-r .icon {
+    position: absolute;
+    left: 19%;
+    top: -3px;
+    color: #3dca93;
+    font-size: 21px;
+}
+
+.protect-l-boxs .pro-l .text,
+.protect-r-boxs .pro-r .text {
+    color: var(--seceond-color);
+    font-weight: bold;
+}
+
+.protect-r-boxs .pro-r .text {
+    margin: 0 30px;
+}
+
+.protect-l-boxs .pro-l .pro-img img,
+.protect-r-boxs .pro-r .pro-img img {
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid var(--seceond-color);
+    margin: 0 10px;
+}
+
+.TreatAdvComp .center-img img {
+    max-width: 100%;
+}
+
+
+/* ------------------------------ End Treatment Style -----------------*/
+
+
+/* ------------------------------ Start FAQ Style -----------------*/
+
+.FaqItemComp .faq-left {
+    flex-basis: 35%;
+}
+
+.FaqItemComp .faq-right {
+    flex-basis: 65%;
+}
+
+.FaqItemComp .faq-left ul li {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #e7e8ff;
+    color: var(--third-color);
+    margin-bottom: 10px;
+    padding: 7px 20px;
+    width: 90%;
+    cursor: pointer;
+}
+
+.faq-left ul li.active-ask {
+    color: var(--seceond-color);
+    border-color: var(--seceond-color);
+}
+
+.faq-right ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: var(--third-color);
+    font-weight: bold;
+}
+
+.faq-right ul .active-title {
+    color: var(--seceond-color);
+    font-weight: 500;
+}
+
+.faq-right ul li::after {
+    content: '+';
+    font-size: 25px;
+}
+
+.faq-right ul {
+    color: var(--third-color);
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* ------------------------------ End FAQ Style -----------------*/
+
+
+/* ------------------------------ Start News Style -----------------*/
+
+.NewItemComp .new-img img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.NewItemComp .new-text h5 {
+    color: var(--third-color);
+    font-weight: bold;
+}
+
+.NewItemComp .new-text p {
+    color: var(--main-color);
+}
+
+
+/* ------------------------------ End News Style -----------------*/
+
+
+/* -------------------------------- Start Footer Style ------------------*/
+
+footer {
+    background-color: #151c2e;
+    color: white;
+    padding: 20px 0;
+    background-image: url(../assets/images/shape-a.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer .social-media {
+    display: flex;
+}
+
+.footer-info {
+    color: var(--white);
+}
+
+.footer-info ul li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footer-info ul {
+    list-style: none;
+}
+
+.footer-info ul li {
+    margin-bottom: 20px;
+}
+
+.footer-info ul li a:hover {
+    color: var(--seceond-color);
+}
+
+footer h5 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+footer .social-media div {
+    width: 40px;
+    height: 40px;
+    color: var(--white);
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+footer .social-media div:first-child {
+    background-color: rgb(7, 24, 77);
+}
+
+footer .social-media div:nth-child(2) {
+    background-color: rgb(10, 62, 104);
+}
+
+footer .social-media div:last-child {
+    background-color: rgb(107, 12, 12);
+}
+
+footer .footer-info h2 {
+    margin-bottom: 25px;
+}
+
+footer .footer-info .foot-con {
+    margin: 15px 0;
+}
+
+footer .copyright {
+    margin-top: 60px;
+}
+
+footer hr {
+    color: var(--white);
+    margin-top: 70px;
+}
+
+footer .copyright .copy-name {
+    color: var(--white);
+    display: flex;
+}
+
+footer .copyright .copy-name a {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--white);
+}
+
+footer .copyright .copy-name p span {
+    color: white;
+    font-weight: bold;
+}
+
+footer .copyright .foot-para {
+    margin-top: 25px;
+}
+
+footer .copyright .foot-para p {
+    font-size: 13px;
+    line-height: 1em;
+}
+
+
+/* ------------------------------ End Footer Style ------------------*/
