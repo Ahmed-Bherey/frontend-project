@@ -27,6 +27,7 @@
         margin: auto;
         width: 100%;
         z-index: 999;
+        height: 0;
     }
     
     body {
@@ -908,6 +909,16 @@
             display: block;
             display: flex;
         }
+        .TreatAdvComp .center-img {
+            display: flex;
+            flex-basis: 100%;
+            order: -1;
+            margin-bottom: 20px;
+        }
+        footer .copyright .foot-para p {
+            font-size: 16px;
+            line-height: 1.5em;
+        }
     }
     /* Media 768px */
     
@@ -940,9 +951,13 @@
         .PrevTextComp h2,
         .TreatTextComp h2,
         .faq-text h2,
-        .NewTextComp h2 {
+        .NewTextComp h2,
+        .TreatCareComp .traet-l-taxt h2 {
             font-size: 28px;
             font-weight: 700;
+        }
+        .TreatCareComp .traet-r-taxt h6 {
+            font-size: 22px;
         }
         p {
             font-size: 18px;
@@ -968,6 +983,9 @@
         }
         .PrevTImgComp .row .check a button {
             margin-bottom: 35px;
+        }
+        .protect-r-boxs .pro-r .icon {
+            left: 13%;
         }
     }
     /* Media 576px */

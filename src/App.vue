@@ -4,9 +4,13 @@
       <div class="con">
         <b-navbar class="container" toggleable="lg" type="dark" variant="">
           <b-navbar-brand href="#">
+            <!------------------- Start Logo ---------------->
             <h2>C
               <font-awesome-icon class="covido" :icon="['fas' , 'virus']" />VID<span>19</span></h2>
           </b-navbar-brand>
+          <!------------------- End Logo ---------------->
+
+          <!------------------- Start Menu Icon ---------------->
           <b-navbar-toggle target="nav-collapse" class="bbb">
             <div class="mobile-btn">
               <span>Menu</span>
@@ -17,6 +21,9 @@
               </span>
             </div>
           </b-navbar-toggle>
+          <!------------------- End Menu Icon ---------------->
+
+          <!------------------- Start NavBar ---------------->
           <b-collapse id="nav-collapse" is-nav>
             <!-- Right aligned nav items -->
             <b-navbar-nav class="ms-auto">
@@ -50,9 +57,12 @@
               </div>
             </b-navbar-nav>
           </b-collapse>
+          <!------------------- End NavBar ---------------->
         </b-navbar>
       </div>
     </div>
+
+    <!------------------- Start Sticky NavBar ---------------->
     <div id="nav" class="sticky-navbar">
       <div class="con">
         <b-navbar class="container" toggleable="lg" type="dark" variant="">
@@ -102,7 +112,10 @@
         </div>
       </div>
     </div>
+    <!------------------- End Sticky NavBar ---------------->
     <router-view />
+
+    <!------------------- Start Footer ---------------->
     <footer>
       <div class="container">
         <div class="footer-info text-center">
@@ -125,6 +138,8 @@
                 </div>
               </div>
             </b-col>
+            <!----- Start Footer Items ------>
+            <!-- item 1 -->
             <b-col cols="6" lg="4" xl="3" class="foot-con">
               <ul>
                 <h5>QUICK LINK</h5>
@@ -135,6 +150,7 @@
                 <li><a href="#">FAQs</a></li>
               </ul>
             </b-col>
+            <!-- item 2 -->
             <b-col cols="6" lg="4" xl="3" class="foot-con">
               <ul>
                 <h5>HELPFULL LINK</h5>
@@ -144,6 +160,7 @@
                 <li><a href="#">Repare your Family</a></li>
               </ul>
             </b-col>
+            <!-- item 2 -->
             <b-col cols="6" lg="4" xl="3" class="foot-con">
               <ul>
                 <h5>IMPORTANT LINK</h5>
@@ -153,9 +170,11 @@
                 <li><a href="#">Harvard Health</a></li>
               </ul>
             </b-col>
+            <!----- End Footer Items ------>
           </b-row>
         </div>
         <hr>
+        <!-- Footer Copyright -->
         <div class="copyright">
           <div class="copy-name justify-content-between">
             <p>© 2020 COVID-19. Template Made by<span> Ahmed Bherey</span></p>
@@ -170,6 +189,9 @@
         </div>
       </div>
     </footer>
+    <!------------------- End Footer ---------------->
+
+    <!------------------- Start Side Menu ---------------->
     <aside class="side-menu">
       <b-navbar-nav>
         <b-nav-item class="side-ul" href="#">
@@ -206,6 +228,7 @@
       </b-navbar-nav>
     </aside>
     <div class="overlayMenu"></div>
+    <!------------------- End Side Menu ---------------->
   </div>
 </template>
 
