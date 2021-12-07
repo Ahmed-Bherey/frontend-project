@@ -7,38 +7,46 @@
             <h2>C
               <font-awesome-icon class="covido" :icon="['fas' , 'virus']" />VID<span>19</span></h2>
           </b-navbar-brand>
-          <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+          <b-navbar-toggle target="nav-collapse" class="bbb">
+            <div class="mobile-btn">
+              <span>Menu</span>
+              <span>
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </span>
+            </div>
+          </b-navbar-toggle>
           <b-collapse id="nav-collapse" is-nav>
             <!-- Right aligned nav items -->
             <b-navbar-nav class="ms-auto">
               <div class="nav-bar">
                 <b-navbar-nav>
                   <b-nav-item href="#">
-                    <router-link class="atag" to="/">Home</router-link>
+                    <router-link class="atag activeBar active" to="/">Home</router-link>
                   </b-nav-item>
                   <b-nav-item href="#">
-                    <router-link class="atag" to="/about">About Corona</router-link>
+                    <router-link class="atag activeBar" to="/about">About Corona</router-link>
                   </b-nav-item>
                   <b-nav-item href="#">
-                    <router-link class="atag" to="/Symptoms">Symptoms</router-link>
+                    <router-link class="atag activeBar" to="/Symptoms">Symptoms</router-link>
                   </b-nav-item>
                   <b-nav-item href="#">
-                    <router-link class="atag" to="/Prevention">Prevention</router-link>
+                    <router-link class="atag activeBar" to="/Prevention">Prevention</router-link>
                   </b-nav-item>
                   <b-nav-item href="#">
-                    <router-link class="atag" to="/Treatment">Treatment</router-link>
+                    <router-link class="atag activeBar" to="/Treatment">Treatment</router-link>
                   </b-nav-item>
                   <b-nav-item href="#">
-                    <router-link class="atag" to="/FAQ">FAQ</router-link>
+                    <router-link class="atag activeBar" to="/FAQ">FAQ</router-link>
                   </b-nav-item>
                   <b-nav-item href="#">
-                    <router-link class="atag" to="/News">News</router-link>
+                    <router-link class="atag activeBar" to="/News">News</router-link>
                   </b-nav-item>
                   <b-nav-item href="#">
-                    <router-link class="atag" to="/Do-Don’t">Do & Don’t</router-link>
+                    <router-link class="atag activeBar fixed-item" to="/Do-Don’t">Do & Don’t</router-link>
                   </b-nav-item>
                 </b-navbar-nav>
-                <!-- <li class="dark-mode"><font-awesome-icon :icon="['fas' , 'moon']" /></li> -->
               </div>
             </b-navbar-nav>
           </b-collapse>
@@ -59,35 +67,39 @@
               <div class="nav-bar">
                 <b-navbar-nav>
                   <b-nav-item href="#">
-                    <router-link class="atag" to="/">Home</router-link>
+                    <router-link class="atag activeBar active" to="/">Home</router-link>
                   </b-nav-item>
                   <b-nav-item href="#">
-                    <router-link class="atag" to="/about">About Corona</router-link>
+                    <router-link class="atag activeBar" to="/about">About Corona</router-link>
                   </b-nav-item>
                   <b-nav-item href="#">
-                    <router-link class="atag" to="/Symptoms">Symptoms</router-link>
+                    <router-link class="atag activeBar" to="/Symptoms">Symptoms</router-link>
                   </b-nav-item>
                   <b-nav-item href="#">
-                    <router-link class="atag" to="/Prevention">Prevention</router-link>
+                    <router-link class="atag activeBar" to="/Prevention">Prevention</router-link>
                   </b-nav-item>
                   <b-nav-item href="#">
-                    <router-link class="atag" to="/Treatment">Treatment</router-link>
+                    <router-link class="atag activeBar" to="/Treatment">Treatment</router-link>
                   </b-nav-item>
                   <b-nav-item href="#">
-                    <router-link class="atag" to="/FAQ">FAQ</router-link>
+                    <router-link class="atag activeBar" to="/FAQ">FAQ</router-link>
                   </b-nav-item>
                   <b-nav-item href="#">
-                    <router-link class="atag" to="/News">News</router-link>
+                    <router-link class="atag activeBar" to="/News">News</router-link>
                   </b-nav-item>
                   <b-nav-item href="#">
-                    <router-link class="atag" to="/Do-Don’t">Do & Don’t</router-link>
+                    <router-link class="atag activeBar" to="/Do-Don’t">Do & Don’t</router-link>
                   </b-nav-item>
                 </b-navbar-nav>
-                <li class="dark-mode"><font-awesome-icon :icon="['fas' , 'moon']" /></li>
               </div>
             </b-navbar-nav>
           </b-collapse>
         </b-navbar>
+      </div>
+      <div class="go-top position-fixed end-0 bottom-0">
+        <div class="container">
+          <font-awesome-icon class="top-icon" :icon="['fas' , 'arrow-up']" />
+        </div>
       </div>
     </div>
     <router-view />
@@ -150,12 +162,50 @@
             <a href="#">Privacy Policy</a>
           </div>
           <div class="foot-para">
-            <p>Disclaimer: We hope you find the information presented on this website useful. This website is for general information and raise awareness of (2019-nCoV) only.</p>
-            <p>All the information based on WHO, NHS and CDC website. Information on our website is meant for awareness, if you have any doubt please verify from respective site.</p>
+            <p>Disclaimer: We hope you find the information presented on this website useful. This website is for
+              general information and raise awareness of (2019-nCoV) only.</p>
+            <p>All the information based on WHO, NHS and CDC website. Information on our website is meant for awareness,
+              if you have any doubt please verify from respective site.</p>
           </div>
         </div>
       </div>
     </footer>
+    <aside class="side-menu">
+      <b-navbar-nav>
+        <b-nav-item class="side-ul" href="#">
+          <router-link class="atag" to="/">Home</router-link>
+        </b-nav-item>
+        <hr>
+        <b-nav-item class="side-ul" href="#">
+          <router-link class="atag" to="/about">About Corona</router-link>
+        </b-nav-item>
+        <hr>
+        <b-nav-item class="side-ul" href="#">
+          <router-link class="atag" to="/Symptoms">Symptoms</router-link>
+        </b-nav-item>
+        <hr>
+        <b-nav-item class="side-ul" href="#">
+          <router-link class="atag" to="/Prevention">Prevention</router-link>
+        </b-nav-item>
+        <hr>
+        <b-nav-item class="side-ul" href="#">
+          <router-link class="atag" to="/Treatment">Treatment</router-link>
+        </b-nav-item>
+        <hr>
+        <b-nav-item class="side-ul" href="#">
+          <router-link class="atag" to="/FAQ">FAQ</router-link>
+        </b-nav-item>
+        <hr>
+        <b-nav-item class="side-ul" href="#">
+          <router-link class="atag" to="/News">News</router-link>
+        </b-nav-item>
+        <hr>
+        <b-nav-item class="side-ul" href="#">
+          <router-link class="atag" to="/Do-Don’t">Do & Don’t</router-link>
+        </b-nav-item>
+      </b-navbar-nav>
+    </aside>
+    <div class="overlayMenu"></div>
   </div>
 </template>
 
@@ -170,10 +220,55 @@
     font-weight: bold;
   }
 
+  .mobile-btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--third-color);
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+  }
+
+  .mobile-btn.open .line1 {
+    transform: rotate(45deg) translate(2px, 10px);
+    -webkit-transform: rotate(45deg) translate(2px, 10px);
+    -moz-transform: rotate(45deg) translate(2px, 10px);
+    -ms-transform: rotate(45deg) translate(2px, 10px);
+    -o-transform: rotate(45deg) translate(2px, 10px);
+  }
+
+  .mobile-btn.open .line2 {
+    opacity: 0;
+  }
+
+  .mobile-btn.open .line3 {
+    transform: rotate(-45deg) translate(0px, -9px);
+    -webkit-transform: rotate(-45deg) translate(0px, -9px);
+    -moz-transform: rotate(-45deg) translate(0px, -9px);
+    -ms-transform: rotate(-45deg) translate(0px, -9px);
+    -o-transform: rotate(-45deg) translate(0px, -9px);
+  }
+
+  .mobile-btn .line {
+    width: 35px;
+    height: 3px;
+    margin: 3px 5px;
+    background-color: var(--third-color);
+    transition: .7s ease-in-out;
+  }
+
   .atag {
     color: var(--third-color);
     text-decoration: none;
     font-weight: bold;
+  }
+
+  .fixed-item {
+    background-color: var(--seceond-color);
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
   }
 
   .atag:hover {
@@ -188,14 +283,3 @@
     color: var(--covido-color);
   }
 </style>
-<script>
-  let navBar = document.querySelector(".sticky-navbar");
-  let body = document.querySelector("html,body") 
-  window.addEventListener('scroll' , ()=>{
-    if(body.scrollTop >=100){
-      navBar.style.display= "block";
-    }else{
-      navBar.style.display= "none";
-    }
-  })
-</script>

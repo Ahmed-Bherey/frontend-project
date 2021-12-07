@@ -21,8 +21,5 @@
     export default {
         name: 'AdviceComp'
     }
-    // let btnn = document.querySelector(".button");
-    // btnn.addEventListener("click" , ()=>{
-    //     console.log("hi")
-    // })
+
 </script>

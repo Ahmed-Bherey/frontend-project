@@ -2,6 +2,7 @@
     <section class="PrevTImgComp">
         <b-container class="text-center">
             <b-row>
+                <!-- box1 -->
                 <b-col cols="12" md="6" lg="4" xl="3">
                     <div class="box-img">
                         <img src="@/assets/images/advice-a.png" alt="">
@@ -11,6 +12,7 @@
                         <p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water for at least 20 seconds.</p>
                     </div>
                 </b-col>
+                <!-- box2 -->
                 <b-col cols="12" md="6" lg="4" xl="3">
                     <div class="box-img">
                         <img src="@/assets/images/advice-b.png" alt="">
@@ -20,6 +22,7 @@
                         <p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water for at least 20 seconds.</p>
                     </div>
                 </b-col>
+                <!-- box3 -->
                 <b-col cols="12" md="6" lg="4" xl="3">
                     <div class="box-img">
                         <img src="@/assets/images/advice-c.png" alt="">
@@ -29,6 +32,7 @@
                         <p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water for at least 20 seconds.</p>
                     </div>
                 </b-col>
+                <!-- box4 -->
                 <b-col cols="12" md="6" lg="4" xl="3">
                     <div class="box-img">
                         <img src="@/assets/images/advice-d.png" alt="">
@@ -39,6 +43,7 @@
                     </div>
                 </b-col>
             </b-row>
+            <!-- buttons -->
             <b-row class="row align-items-center">
                 <b-col cols="12" md="6" class="check">
                     <a href="#"><button>Check how you wash hand <font-awesome-icon class="prev-icon" :icon="['fas' , 'arrow-right']"/></button></a>

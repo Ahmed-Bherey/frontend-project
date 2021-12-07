@@ -2,7 +2,8 @@
     <section class="TreatAdvComp text-center">
         <b-container class="bv-example-row">
             <b-row>
-                <b-col class="protect-l-boxs">
+                <!-- left items -->
+                <b-col cols="12" md="6" lg="4" class="protect-l-boxs">
                     <div class="pro-l">
                         <div class="text"><p>Avoid Close Contact</p></div>
                         <div class="icon"><font-awesome-icon :icon="['fas' , 'times-circle']"/></div>
@@ -19,10 +20,12 @@
                         <div class="pro-img"><img src="@/assets/images/donts-a.png" alt=""></div>
                     </div>
                 </b-col>
-                <b-col class="center-img">
+                <!-- middle img -->
+                <b-col cols="12" md="6" lg="4" class="center-img">
                     <img src="@/assets/images/protect.png" alt="">
                 </b-col>
-                <b-col class="protect-r-boxs">
+                <!-- right items -->
+                <b-col cols="12" md="6" lg="4" class="protect-r-boxs">
                     <div class="pro-r">
                         <div class="pro-img"><img src="@/assets/images/dos-a.png" alt=""></div>
                         <div class="icon"><font-awesome-icon :icon="['fas' , 'check-circle']"/></div>

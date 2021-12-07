@@ -2,6 +2,7 @@
     <section class="PrevStepsComp">
         <b-container class="prev-parent">
             <b-row>
+                <!-- steps text -->
                 <b-col cols="12" md="6" class="col-r">
                     <div class="steps-text">
                         <h2>Take steps to protect others</h2>
@@ -45,6 +46,7 @@
                         </ul>
                     </div>
                 </b-col>
+                <!-- steps img -->
                 <b-col cols="12" md="6" class="col-l">
                     <div class="prev-img">
                         <img src="@/assets/images/steps.png" alt="">

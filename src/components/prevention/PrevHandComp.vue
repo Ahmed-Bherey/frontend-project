@@ -1,12 +1,14 @@
 <template>
     <section class="PrevHandComp">
         <div class="container">
+            <!-- hands text -->
             <div class="hand text-center">
                 <h2>Follow steps to wash hands</h2>
                 <a href="#">Why do I need wash hand
                     <font-awesome-icon class="prev-icon" :icon="['fas' , 'arrow-right']" /></a>
             </div>
             <b-row class="hand-imgs text-center">
+                <!-- hand 1 -->
                 <b-col cols="12" md="6" lg="4" xl="2">
                     <div class="hand-img">
                         <img src="@/assets/images/hand-a.png" alt="">
@@ -15,6 +17,7 @@
                         <p>Soap on Hand</p>
                     </div>
                 </b-col>
+                <!-- hand 2 -->
                 <b-col cols="12" md="6" lg="4" xl="2">
                     <div class="hand-img">
                         <img src="@/assets/images/hand-b.png" alt="">
@@ -23,6 +26,7 @@
                         <p>Palm to Palm</p> 
                     </div>
                 </b-col>
+                <!-- hand 3 -->
                 <b-col cols="12" md="6" lg="4" xl="2">
                     <div class="hand-img">
                         <img src="@/assets/images/hand-c.png" alt="">
@@ -31,6 +35,7 @@
                         <p>Between Fingers</p> 
                     </div>
                 </b-col>
+                <!-- hand 4 -->
                 <b-col cols="12" md="6" lg="4" xl="2">
                     <div class="hand-img">
                         <img src="@/assets/images/hand-d.png" alt="">
@@ -39,6 +44,7 @@
                         <p>Back to Hands</p> 
                     </div>
                 </b-col>
+                <!-- hand 5 -->
                 <b-col cols="12" md="6" lg="4" xl="2">
                     <div class="hand-img">
                         <img src="@/assets/images/hand-e.png" alt="">
@@ -47,6 +53,7 @@
                         <p>Clean with Water</p> 
                     </div>
                 </b-col>
+                <!-- hand 6 -->
                 <b-col cols="12" md="6" lg="4" xl="2">
                     <div class="hand-img">
                         <img src="@/assets/images/hand-f.png" alt="">
