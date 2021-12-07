@@ -51,7 +51,7 @@
                     <router-link class="atag activeBar" to="/News">News</router-link>
                   </b-nav-item>
                   <b-nav-item href="#">
-                    <router-link class="atag activeBar fixed-item" to="/Do-Don’t">Do & Don’t</router-link>
+                    <router-link class="activeBar fixed-item" to="/Do-Don’t">Do & Don’t</router-link>
                   </b-nav-item>
                 </b-navbar-nav>
               </div>
@@ -98,7 +98,7 @@
                     <router-link class="atag activeBar" to="/News">News</router-link>
                   </b-nav-item>
                   <b-nav-item href="#">
-                    <router-link class="atag activeBar" to="/Do-Don’t">Do & Don’t</router-link>
+                    <router-link class="activeBar fixed-item" to="/Do-Don’t">Do & Don’t</router-link>
                   </b-nav-item>
                 </b-navbar-nav>
               </div>
@@ -292,8 +292,12 @@
     border-radius: 15px;
     color: white;
     padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
   }
-
+  .fixed-item:hover{
+    color: white;
+  }
   .atag:hover {
     color: var(--seceond-color);
   }

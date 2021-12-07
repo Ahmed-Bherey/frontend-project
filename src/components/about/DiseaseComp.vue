@@ -21,32 +21,32 @@
                 <div class="col-12 col-lg-6 know">
                     <ul>
                         <li>What you need to know</li>
-                        <a href="#spread">
+                        <a href="#">
                             <li class="justify-content-between"><span>How coronavirus is spread</span>
                                 <font-awesome-icon :icon="['fas' , 'arrow-right']"/>
                             </li>
                         </a>
-                        <a href="#symptoms">
+                        <a href="#">
                             <li class="justify-content-between"><span>Symptoms of coronavirus</span>
                                 <font-awesome-icon :icon="['fas' , 'arrow-right']"/>
                             </li>
                         </a>
-                        <a href="#protect">
+                        <a href="#">
                             <li class="justify-content-between"><span>How to protect yourself</span>
                                 <font-awesome-icon :icon="['fas' , 'arrow-right']"/>
                             </li>
                         </a>
-                        <a href="#treatment">
+                        <a href="#">
                             <li class="justify-content-between"><span>Treatment for coronavirus</span>
                                 <font-awesome-icon :icon="['fas' , 'arrow-right']"/>
                             </li>
                         </a>
-                        <a href="#FAQ">
+                        <a href="#">
                             <li class="justify-content-between"><span>Myth-Busters of coronavirus</span>
                                 <font-awesome-icon :icon="['fas' , 'arrow-right']"/>
                             </li>
                         </a>
-                        <a href="#FAQ">
+                        <a href="#">
                             <li class="justify-content-between"><span>Questions & answers</span>
                                 <font-awesome-icon :icon="['fas' , 'arrow-right']"/>
                             </li>
